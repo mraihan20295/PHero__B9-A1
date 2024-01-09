@@ -297,49 +297,35 @@ section {
 .holidays-sale__banner {
     margin-top: 5rem;
     position: relative;
-    text-align: right;
 }
 
-.holidays-sale__banner-content {
-    display: flex;
-    gap: 10rem;
-    justify-content: space-between;
+.discount-lady-container {
     margin-bottom: -0.9rem;
 }
 
-.holidays-sale__banner-content>.gift-box {
-    width: 70%;
+.discount-lady {
+    position: relative;
+    width: 35%;
+    margin-left: auto;
+
 }
 
-.holidays-sale__banner-content .gift-box>*,
-.holidays-sale__banner-content .discount-lady>* {
+.shopping-lady {
     width: 100%;
 }
 
-.holidays-sale__banner-content .gift-box {
-    position: relative;
-}
-
-.holidays-sale__banner-content .gift-box>img {
-    max-width: 700px;
+.discount-badge {
+    width: 78%;
     position: absolute;
-    left: 0;
-    top: 5%;
+    top: 12%;
+    left: -39%;
 }
 
-.holidays-sale__banner-content .discount-lady {
-    position: relative;
-
-}
-
-.holidays-sale__banner-content .discount-lady>.discount-badge {
-    max-width: 240px;
+.holidays-sale__banner .gift-box {
     position: absolute;
-    border-radius: 50%;
-    top: 15%;
-    left: -120px;
+    bottom: 0;
+    width: 55%;
 }
-
 
 
 .holidays-sale__banner .red-banner {
