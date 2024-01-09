@@ -187,6 +187,11 @@ section {
     color: #FF0000;
 }
 
+.offer>img {
+    width: 100%;
+    max-width: 800px;
+}
+
 /* Party Area */
 
 .party {
@@ -258,7 +263,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 6rem;
+    gap: 4rem;
 }
 
 .best-offer>* {
@@ -268,7 +273,9 @@ section {
 .best-offer__center>img {
     border: 15px solid rgba(255, 0, 0, 1);
     border-radius: 50%;
-    padding: 50px;
+    padding: 7%;
+    width: 100%;
+    min-width: 250px;
 }
 
 
