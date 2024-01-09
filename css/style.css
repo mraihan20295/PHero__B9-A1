@@ -195,48 +195,42 @@ section {
     background-size: cover;
     background-position: center;
     border-radius: 16px;
-    /* min-height: 600px; */
-    /* padding: 75px 12rem 75px 12rem; */
-    /* text-align: center; */
+    padding: 4rem 0 4rem 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    /* gap: 4rem; */
 }
 
 .party>* {
     flex: 1;
 }
 
-.party__text-content>* {
-    /* background: red; */
-    color: #fff;
-    margin: auto;
+.party__text-content {
+    padding-left: 8rem;
 }
 
-/* .party__text-content {
-    max-width: 700px;
-} */
-
 .party__text-content>h2 {
-    width: 70%;
+    color: #fff;
+    max-width: 500px;
 }
 
 .party__text-content>p {
-    width: 80%;
+    color: #fff;
+    margin-bottom: 3rem;
 }
 
+
 .party__image {
-    /* max-width: 320px; */
-    width: fit-content;
+    max-width: 40%;
 }
 
 .party__image>img {
-    /* display: inline-block; */
-    /* padding: 50%; */
-    /* height: 100%; */
-
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
 }
+
+
 
 /* Event Area */
 
